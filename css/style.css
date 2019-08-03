@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
   }
+  h2{
+    text-align: center;
+    margin: 3vh;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+  }
 
 .top{
  height: 25vh;
