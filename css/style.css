@@ -138,3 +138,112 @@
   font-size: 17px;
   width: 80%;
 }
+
+.tournamentscs1{
+  width: 100%;
+  }
+  
+   .tournamentscs2{
+    width: 100%;
+   }
+  .tournamentscs3 {
+  width: 100%;
+  }
+  .tournamentscs4 {
+    width: 100%;
+    }
+  
+  
+   @media (min-width:1024px) and (max-width:1300px){
+    .tournamentscs1{
+      display: none;
+    }
+    .tournamentscs3{
+      display: none;
+    }
+    .tournamentscs4{
+      display: none;
+    }
+    .tournamentsdbd1{
+      display: none;
+    }
+    .tournamentsdbd3{
+      display: none;
+    }
+    .tournamentsdbd4{
+      display: none;
+    }
+  }
+  @media (min-width:1300px){
+    .tournamentscs2{
+      display: none;
+    }
+    .tournamentscs3{
+      display: none;
+    }
+    .tournamentscs4{
+      display: none;
+    }
+    .tournamentsdbd2{
+      display: none;
+    }
+    .tournamentsdbd3{
+      display: none;
+    }
+    .tournamentsdbd4{
+      display: none;
+    }
+  }
+  @media(min-width:768px) and (max-width:1024px){
+    .tournamentscs1{
+      display: none;
+    }
+    .tournamentscs2{
+      display: none;
+    }
+    .tournamentscs4{
+      display: none;
+    }
+    .tournamentsdbd1{
+      display: none;
+    }
+    .tournamentsdbd2{
+      display: none;
+    }
+    .tournamentsdbd4{
+      display: none;
+    }
+  }
+  @media(max-width:768px){
+    .tournamentscs1{
+      display: none;
+    }
+    .tournamentscs2{
+      display: none;
+    }
+    .tournamentscs3{
+      display: none;
+    }
+    .tournamentsdbd1{
+      display: none;
+    }
+    .tournamentsdbd2{
+      display: none;
+    }
+    .tournamentsdbd3{
+      display: none;
+    }
+  } 
+  
+  .tournamentsdbd1{
+    width: 100%;
+  }
+  .tournamentsdbd2{
+    width: 100%;
+  }
+  .tournamentsdbd3{
+    width: 100%;
+  }
+  .tournamentsdbd4{
+    width: 100%;
+  }
