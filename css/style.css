@@ -62,15 +62,7 @@
 }
 .menu-main a:hover:before, .menu-main .current:before {left: 0;}
 .menu-main a:hover:after, .menu-main .current:after {right: 0;}   
-@media (max-width: 550px) {
-.menu-main {padding-top: 0;}
-.menu-main li {display: block;}
-.menu-main li:after {content: none;}
-.menu-main a {
-  padding: 25px 0 20px; 
-  margin: 0 30px;
-}
-}
+
 
 .rules{
   padding-top: 5vh;
@@ -146,111 +138,152 @@
   width: 80%;
 }
 
+ 
 .tournamentscs1{
-  width: 100%;
+  width: 60%;
+  border-radius: 20px;
+  padding: 1vh;
+}
+
+ .tournamentscs2{
+  width: 60%;
+  border-radius: 20px;
+  padding: 1vh;
+ }
+.tournamentscs3 {
+  width: 60%;
+  border-radius: 20px;
+  padding: 1vh;
+}
+.tournamentscs4 {
+  width: 60%;
+  border-radius: 20px;
+  padding: 1vh;
   }
-  
-   .tournamentscs2{
-    width: 100%;
-   }
-  .tournamentscs3 {
-  width: 100%;
+
+
+ @media (min-width:1025px) and (max-width:1600px){
+  .tournamentscs1{
+    display: none;
   }
-  .tournamentscs4 {
-    width: 100%;
-    }
-  
-  
-   @media (min-width:1024px) and (max-width:1300px){
-    .tournamentscs1{
-      display: none;
-    }
-    .tournamentscs3{
-      display: none;
-    }
-    .tournamentscs4{
-      display: none;
-    }
-    .tournamentsdbd1{
-      display: none;
-    }
-    .tournamentsdbd3{
-      display: none;
-    }
-    .tournamentsdbd4{
-      display: none;
-    }
+  .tournamentscs3{
+    display: none;
   }
-  @media (min-width:1300px){
-    .tournamentscs2{
-      display: none;
-    }
-    .tournamentscs3{
-      display: none;
-    }
-    .tournamentscs4{
-      display: none;
-    }
-    .tournamentsdbd2{
-      display: none;
-    }
-    .tournamentsdbd3{
-      display: none;
-    }
-    .tournamentsdbd4{
-      display: none;
-    }
+  .tournamentscs4{
+    display: none;
   }
-  @media(min-width:768px) and (max-width:1024px){
-    .tournamentscs1{
-      display: none;
-    }
-    .tournamentscs2{
-      display: none;
-    }
-    .tournamentscs4{
-      display: none;
-    }
-    .tournamentsdbd1{
-      display: none;
-    }
-    .tournamentsdbd2{
-      display: none;
-    }
-    .tournamentsdbd4{
-      display: none;
-    }
-  }
-  @media(max-width:768px){
-    .tournamentscs1{
-      display: none;
-    }
-    .tournamentscs2{
-      display: none;
-    }
-    .tournamentscs3{
-      display: none;
-    }
-    .tournamentsdbd1{
-      display: none;
-    }
-    .tournamentsdbd2{
-      display: none;
-    }
-    .tournamentsdbd3{
-      display: none;
-    }
-  } 
-  
   .tournamentsdbd1{
-    width: 100%;
-  }
-  .tournamentsdbd2{
-    width: 100%;
+    display: none;
   }
   .tournamentsdbd3{
-    width: 100%;
+    display: none;
   }
   .tournamentsdbd4{
-    width: 100%;
+    display: none;
+  }
+}
+@media (min-width:1600px){
+  .tournamentscs2{
+    display: none;
+  }
+  .tournamentscs3{
+    display: none;
+  }
+  .tournamentscs4{
+    display: none;
+  }
+  .tournamentsdbd2{
+    display: none;
+  }
+  .tournamentsdbd3{
+    display: none;
+  }
+  .tournamentsdbd4{
+    display: none;
+  }
+}
+@media(min-width:768px) and (max-width:1024px){
+  .tournamentscs1{
+    display: none;
+  }
+  .tournamentscs2{
+    display: none;
+  }
+  .tournamentscs4{
+    display: none;
+  }
+  .tournamentsdbd1{
+    display: none;
+  }
+  .tournamentsdbd2{
+    display: none;
+  }
+  .tournamentsdbd4{
+    display: none;
+  }
+}
+@media(max-width:767px){
+  .tournamentscs1{
+    display: none;
+  }
+  .tournamentscs2{
+    display: none;
+  }
+  .tournamentscs3{
+    display: none;
+  }
+
+  .tournamentscs4{
+    width: 80%;
+  }
+
+
+  .tournamentsdbd1{
+    display: none;
+  }
+  .tournamentsdbd2{
+    display: none;
+  }
+  .tournamentsdbd3{
+    display: none;
+  }
+  .tournamentsdbd4{
+    width: 80%;
+  }
+} 
+
+.tournamentsdbd1{
+  width: 60%;
+  border-radius: 20px;
+  padding: 1vh;
+}
+.tournamentsdbd2{
+  width: 60%;
+  border-radius: 20px;
+  padding: 1vh;
+}
+.tournamentsdbd3{
+  width: 60%;
+  border-radius: 20px;
+  padding: 1vh;
+}
+.tournamentsdbd4{
+  border-radius: 20px;
+  padding: 1vh;
+}
+
+@media (max-width: 550px) {
+  .menu-main {padding-top: 0;}
+  .menu-main li {display: block;}
+  .menu-main li:after {content: none;}
+  .menu-main a {
+    padding: 25px 0 20px; 
+    margin: 0 30px;
+  }
+  .tournamentscs4{
+    width: 90%;
+  }
+  .tournamentsdbd4{
+    width: 90%;
+  }
   }
