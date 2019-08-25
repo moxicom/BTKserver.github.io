@@ -223,8 +223,7 @@
     transition: 0.6s;
   }
 
-
-
+      
 
       @media (min-width:1025px) and (max-width:1600px){
         .tournamentscs1{
@@ -265,7 +264,9 @@
         .tournamentsdbd4{
           display: none;
         }
+
       }
+
       @media(min-width:768px) and (max-width:1024px){
         .tournamentscs1{
           display: none;
@@ -489,4 +490,46 @@ body.dbdback{
 	.post-item {
 		flex-basis: 33.333333333%;			
 	}
+}
+
+
+  
+  .about{
+    color: black;
+  width: 60% ;
+  font-weight: 100;
+  font-size: 1.188em;
+  line-height: 1.625em;
+  z-index: 20;
+    position: relative;
+    margin: 2em ;
+    font-family: Arial, sans-serif;
+  }
+
+.admins{
+  /* font-weight: 100;
+  font-size: 1.188em;
+  font-family: Arial, sans-serif;
+background-color: rgb(49, 49, 49);
+color: white;
+padding: 1.55em 0 1.55em 0;
+width: 100%; */
+
+margin-bottom: 2em;
+font-size: 35px;
+font-weight: normal;
+cursor: pointer;
+text-shadow: 1px 1px 0 rgb(0, 0, 0),
+             1px -1px 0 rgb(0, 0, 0),
+             -1px 1px 0 rgb(0, 0, 0),
+            -1px -1px 0 rgb(0, 0, 0);
+color: white;
+transition: all 1s;
+}
+.admins:hover {
+  text-shadow: 1px 1px 0 rgb(205, 50, 50),
+               1px -1px 0 rgb(205, 50, 50),
+               -1px 1px 0 rgb(205, 50, 50),
+              -1px -1px 0 rgb(205, 50, 50);
+  color: rgb(255, 255, 255);
 }
