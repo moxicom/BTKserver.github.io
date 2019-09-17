@@ -3,6 +3,7 @@
     padding: 0;
   }
   h2{
+    color: rgb(243, 243, 243);
     text-align: center;
     margin: 3vh;
     font-family: 'Montserrat',sans-serif;
@@ -529,12 +530,12 @@ center {
 }
 
 .logoCharacter {
-  width: 7vw;
-  height: 7vw;
-  border: 0.2vw solid rgb(120, 231, 29);
+  width: 130px;
+  height: 130px;
+  border: 0.2vw solid rgb(231, 29, 29);
   border-radius: 4vw;
   margin: 0.5vw;
-  box-shadow: 0 0 20px rgba(120, 231, 29, 0.26);
+  box-shadow: 0 0 50px rgba(231, 29, 29, 0.274);
 }
 
 .flex {
@@ -681,15 +682,7 @@ img {
 .flex-center {
   align-self: center;
 }
-.redBG {
-  /* border: 0.16vw solid #BD1800; */
-  padding: 4px;
-  border-radius: 0.4vw;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  font-size: 1vw;
-}
+
 td{
   padding: 10px;
 }
@@ -698,54 +691,56 @@ td{
  background-repeat: no-repeat;
 }
 
-
-
-
-
-
-.btn {
-	position: relative;
-	height: 100px;
-	line-height: 40px;
-	padding: 0 100px 0 100px;
-	margin-top:  100px;
-	background-color: rgb(255, 223, 223);
-	box-shadow: 0 15px 65px rgba(182, 21, 21, 0.692);
-	border-width: 0;
-	border-radius: 10px;
-	font-family: 'Montserrat Alternates', sans-serif;
-	font-size: 18px;
-	color: rgba(37, 37, 37, 0.767);
-	outline: none;
-	cursor: pointer;
+.maniac-h2{
+  font-size: 30px;
 }
 
-
-.btn:hover{
-
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0 15px 115px rgb(182, 21, 21);
-  transition: .6s;
-
+.blocked{
+  /* border: 0.1vw solid #2090CB;
+  border-radius: 3vw;
+  box-shadow: 0 0 10px #2090CB; */
+  text-shadow:0 0 10px rgb(203, 32, 32);
+  font-size: 18px;
 }
 
-
-.btn:before {
-	content: "\f067";
-	position: absolute;
-	left: 10px;
-	top: 20px;
-	font-family: FontAwesome;
-	color: rgb(168, 35, 35);
-	width: 60px;
-	height: 60px;
-	line-height: 60px;
-	text-align: center;
-	border-radius: 50%;
-	background: transparent;
-	transition: .3s ease-in-out;
+hr {
+  color: rgba(85, 85, 85, 0); /*для IE */
+  background-color:rgba(85, 85, 85, 0); /*для Firefox, Opera, Safari*/
+  border:2px dashed #4A4A4A;;
+  height:1px; /* высота 1px IE, Firefox, Opera, Safari */
+  clear:both; /* для очистки, если тег идет после float елемента */
 }
-.btn:hover:before {
-	background: rgba(19, 19, 19, 0.178);
-	color: rgb(168, 35, 35);
+/* .td1{
+  border: 2px solid #BD1800;
+    padding: 4px 7px 5px 7px;
+    border-radius: 8px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 18px;
+    color: white;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+} */
+
+.redBG{
+  border: 2.5px solid #BD1800;
+  box-shadow:0 0 40px rgba(203, 32, 32, 0.349);
+  padding: 5px 8px 6px 8px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: white;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+.yellowBG {
+  border: 0.16vw solid #E1B005;
+  box-shadow:0 0 40px rgba(203, 32, 32, 0.349);
+  padding: 0.2vw 0.5vw 0.1vw 0.5vw;
+  border-radius: 0.4vw;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 1vw;
 }
