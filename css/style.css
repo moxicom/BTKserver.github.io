@@ -532,7 +532,7 @@ center {
 .logoCharacter {
   width: 130px;
   height: 130px;
-  border: 0.2vw solid rgb(231, 29, 29);
+  border: 1px solid rgb(231, 29, 29);
   border-radius: 4vw;
   margin: 0.5vw;
   box-shadow: 0 0 50px rgba(231, 29, 29, 0.274);
